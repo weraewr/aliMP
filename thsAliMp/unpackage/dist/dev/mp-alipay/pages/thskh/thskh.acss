@@ -1,0 +1,7 @@
+.thskh {
+  position: relative;
+}
+.thskhView {
+  height: 70vh;
+}
+

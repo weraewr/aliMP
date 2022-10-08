@@ -1,0 +1,9 @@
+{
+  "defaultTitle": "同花顺股票",
+  "titleBarColor": "#FFFFFF",
+  "usingComponents": {
+    "jyf-parser": "/components/jyf-parser/jyf-parser",
+    "i-toast": "/iview/toast/index",
+    "page-wrap": "/components/pageWrap/index"
+  }
+}

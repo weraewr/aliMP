@@ -1,0 +1,1 @@
+<view class="{{['pageWrap '+(isX?'pageIphoneX':'')]}}"><slot></slot></view>

@@ -1,0 +1,1 @@
+export default 'https://eq.10jqka.com.cn'

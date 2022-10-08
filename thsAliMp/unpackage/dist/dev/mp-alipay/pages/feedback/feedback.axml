@@ -1,0 +1,1 @@
+<view><view class="textContent"><textarea maxlength="140" auto-height="true" data-event-opts="{{[['input',[['__set_model',['','content','$event',[]]],['inputHandler',['$event']]]]]}}" value="{{content}}" onInput="__e"></textarea></view><view data-event-opts="{{[['tap',[['submit',['$event']]]]]}}" class="{{(('btn')+' '+((inputComplete)?'active':''))}}" onTap="__e">提交</view></view>

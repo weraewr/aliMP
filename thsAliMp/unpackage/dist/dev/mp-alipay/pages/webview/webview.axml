@@ -1,0 +1,1 @@
+<view class="webview"><view><block a:if="{{webSrc}}"><web-view src="{{webSrc}}"></web-view></block></view></view>

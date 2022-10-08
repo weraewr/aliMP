@@ -1,0 +1,76 @@
+.bindWrap .itemWrap.data-v-df127bb4 {
+  height: 96rpx;
+  padding: 0 32rpx;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 30rpx;
+}
+.bindWrap .itemWrap .tit.data-v-df127bb4 {
+  width: 162rpx;
+}
+.bindWrap .itemWrap .inputWrap.data-v-df127bb4 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.bindWrap .itemWrap .inputWrap input.data-v-df127bb4 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.bindWrap .itemWrap .inputWrap .close.data-v-df127bb4 {
+  width: 42rpx;
+  height: 42rpx;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.bindWrap .itemWrap .inputWrap .getCode.data-v-df127bb4 {
+  width: 150rpx;
+  color: #4691EE;
+}
+.bindWrap .itemWrap .inputWrap .send.data-v-df127bb4 {
+  color: #eee;
+}
+.bindWrap .errorInfo.data-v-df127bb4 {
+  height: 40rpx;
+  line-height: 40rpx;
+  padding-left: 194rpx;
+  color: #e93035;
+  font-size: 24rpx;
+}
+.bindWrap .bindBtn.data-v-df127bb4 {
+  width: 686rpx;
+  height: 88rpx;
+  margin: 88rpx auto 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  background: -webkit-linear-gradient(left, #f8b089, #f49897);
+  background: linear-gradient(left, #f8b089, #f49897);
+  color: #fff;
+  font-size: 30rpx;
+  letter-spacing: 12rpx;
+  border-radius: 44rpx;
+}
+.bindWrap .bindBtn.active.data-v-df127bb4 {
+  background: -webkit-linear-gradient(left, #F26312, #E93030);
+  background: linear-gradient(left, #F26312, #E93030);
+}
+

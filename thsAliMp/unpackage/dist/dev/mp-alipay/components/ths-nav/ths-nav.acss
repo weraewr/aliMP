@@ -1,0 +1,25 @@
+.navBar {
+  height: 80rpx;
+  background-color: transparent;
+}
+.navBar .contentWrap .leftContent {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.navBar .contentWrap .leftContent .headBtn {
+  width: 64rpx;
+  height: 64rpx;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+.navBar .contentWrap .leftContent .login {
+  font-size: 30rpx;
+  color: #000;
+  min-width: 85rpx;
+}
+.navBar .contentWrap .leftContent .login #btnLogin {
+  border: none;
+}
+

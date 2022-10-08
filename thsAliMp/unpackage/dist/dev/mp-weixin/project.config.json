@@ -1,0 +1,110 @@
+{
+  "description": "项目配置文件。",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "enhance": false,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": false,
+    "coverView": true,
+    "nodeModules": false,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": true,
+    "useApiHook": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": []
+  },
+  "compileType": "miniprogram",
+  "libVersion": "",
+  "appid": "wx2c40d29fbb08911e",
+  "projectname": "ths_one",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
+      "list": []
+    },
+    "game": {
+      "current": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "current": 4,
+      "list": [
+        {
+          "name": "bind",
+          "query": "",
+          "id": 0,
+          "pathName": "pages/bindphonenum/bindphonenum"
+        },
+        {
+          "name": "feedback",
+          "query": "",
+          "id": 1,
+          "pathName": "pages/feedback/feedback"
+        },
+        {
+          "name": "optional",
+          "query": "",
+          "id": 2,
+          "pathName": "pages/optional/optional"
+        },
+        {
+          "name": "searcg",
+          "query": "",
+          "id": 3,
+          "pathName": "pages/searchstock/searchstock"
+        },
+        {
+          "name": "hq",
+          "query": "marketAndCode=hs_300033_33&name=同花顺",
+          "id": 4,
+          "pathName": "pages/hq/hq"
+        },
+        {
+          "name": "allstock",
+          "query": "",
+          "id": 5,
+          "pathName": "pages/allstock/allstock"
+        },
+        {
+          "name": "blockdetail",
+          "query": "",
+          "id": 6,
+          "pathName": "pages/blockdetail/blockdetail"
+        },
+        {
+          "name": "backWash",
+          "query": "",
+          "id": 7,
+          "pathName": "pages/backWash/backWash"
+        }
+      ]
+    }
+  }
+}

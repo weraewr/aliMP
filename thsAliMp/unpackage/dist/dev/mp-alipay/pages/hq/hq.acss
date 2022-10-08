@@ -1,0 +1,130 @@
+.btmWrap {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 98rpx;
+  background-color: #FFFFFF;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  padding: 0 32rpx;
+  box-sizing: border-box;
+}
+.btmWrap.iPhoneX {
+  height: 156rpx;
+  padding: 0 32rpx 58rpx;
+}
+.btmWrap .deal {
+  width: 206rpx;
+  height: 72rpx;
+  border-radius: 36rpx;
+  color: #FFFFFF;
+  font-size: 30rpx;
+  margin-right: 60rpx;
+  position: relative;
+  overflow: hidden;
+}
+.btmWrap .deal .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.btmWrap .deal .btnBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.btmWrap .item {
+  height: 72rpx;
+  width: 75rpx;
+  position: relative;
+  margin: 0 80rpx;
+}
+.btmWrap .item .icon {
+  width: 30rpx;
+  height: 30rpx;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 5rpx;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.btmWrap .item .text {
+  font-size: 20rpx;
+  position: absolute;
+  bottom: 5rpx;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.btmWrap .item #idLogin {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.btmWrap .item .transBtn {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  z-index: 2;
+  color: transparent;
+}
+.backWashWrap {
+  position: fixed;
+  bottom: 14%;
+  right: -4%;
+  width: 188rpx;
+  height: 64rpx;
+  border-radius: 32rpx;
+  color: #FFFFFF;
+  font-size: 24rpx;
+  overflow: hidden;
+}
+.backWashWrap .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-60%, -50%);
+          transform: translate(-60%, -50%);
+}
+.backWashWrap .text .rightArrow {
+  display: inline-block;
+  width: 15rpx;
+  margin-left: 8rpx;
+  vertical-align: middle;
+  position: relative;
+  top: -1rpx;
+}
+.backWashWrap .btnBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.backWashWrap .transBtn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  z-index: 2;
+  color: transparent;
+}
+

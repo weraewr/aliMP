@@ -1,0 +1,56 @@
+.bindWrap .itemWrap.data-v-df127bb4 {
+  height: 96rpx;
+  padding: 0 32rpx;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30rpx;
+}
+.bindWrap .itemWrap .tit.data-v-df127bb4 {
+  width: 162rpx;
+}
+.bindWrap .itemWrap .inputWrap.data-v-df127bb4 {
+  flex: 1;
+  display: flex;
+}
+.bindWrap .itemWrap .inputWrap input.data-v-df127bb4 {
+  flex: 1;
+}
+.bindWrap .itemWrap .inputWrap .close.data-v-df127bb4 {
+  width: 42rpx;
+  height: 42rpx;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.bindWrap .itemWrap .inputWrap .getCode.data-v-df127bb4 {
+  width: 150rpx;
+  color: #4691EE;
+}
+.bindWrap .itemWrap .inputWrap .send.data-v-df127bb4 {
+  color: #eee;
+}
+.bindWrap .errorInfo.data-v-df127bb4 {
+  height: 40rpx;
+  line-height: 40rpx;
+  padding-left: 194rpx;
+  color: #e93035;
+  font-size: 24rpx;
+}
+.bindWrap .bindBtn.data-v-df127bb4 {
+  width: 686rpx;
+  height: 88rpx;
+  margin: 88rpx auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(left, #f8b089, #f49897);
+  color: #fff;
+  font-size: 30rpx;
+  letter-spacing: 12rpx;
+  border-radius: 44rpx;
+}
+.bindWrap .bindBtn.active.data-v-df127bb4 {
+  background: linear-gradient(left, #F26312, #E93030);
+}
+

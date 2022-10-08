@@ -1,0 +1,54 @@
+.optional {
+  padding-top: 32rpx;
+}
+.btn {
+  border-radius: 36rpx;
+  box-shadow: 0 2rpx 8rpx 4rpx #F5F5F5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24rpx;
+  background-color: #FFFFFF;
+}
+.searchWrap {
+  margin: 0 auto 30rpx;
+  width: 686rpx;
+  height: 72rpx;
+}
+.searchWrap .searchIcon {
+  width: 32rpx;
+  height: 32rpx;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-right: 25rpx;
+}
+.infoText {
+  font-size: 20rpx;
+  margin-left: 32rpx;
+}
+.btmBtn {
+  margin: 32rpx auto;
+  width: 343rpx;
+  height: 72rpx;
+}
+.btmBtn .login {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btmBtn .noLogin {
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+.btmBtn .noLogin #btnLogin {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-size: 24rpx;
+  border: none;
+}
+

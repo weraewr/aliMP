@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "同花顺股票",
+  "titleBarColor": "#FFFFFF",
+  "usingComponents": {
+    "ths-unify-list": "/components/ths-unify-list/ths-unify-list"
+  }
+}

@@ -1,0 +1,165 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "同花顺股票",
+			"navigationBarTextStyle": "black",
+			"navigationBarBackgroundColor": "#FFFFFF"
+		}
+	}, {
+		"path": "pages/optional/optional",
+		"style": {
+			"navigationBarTitleText": "同花顺股票",
+			"navigationBarTextStyle": "black",
+			"navigationBarBackgroundColor": "#FFFFFF"
+		}
+	}, {
+		"path": "pages/bindphonenum/bindphonenum",
+		"style": {
+			"navigationBarTitleText": "登录",
+			"navigationBarTextStyle": "black",
+			"navigationBarBackgroundColor": "#FFFFFF"
+		}
+	}, {
+		"path": "pages/feedback/feedback",
+		"style": {
+			"navigationBarTitleText": "意见反馈",
+			"navigationBarTextStyle": "black",
+			"navigationBarBackgroundColor": "#FFFFFF"
+		}
+	}, {
+		"path": "pages/searchstock/searchstock",
+		"style": {
+			"navigationBarTitleText": "同花顺股票",
+			"navigationBarTextStyle": "black",
+			"navigationBarBackgroundColor": "#FFFFFF"
+		}
+	}, {
+		"path": "pages/hq/hq",
+		"style": {}
+	}, {
+		"path": "pages/webview/webview",
+		"style": {}
+	}, {
+		"path": "pages/news/news",
+		"style": {
+			"navigationBarTitleText": "同花顺股票",
+			"navigationBarTextStyle": "black",
+			"navigationBarBackgroundColor": "#FFFFFF"
+		}
+	}, {
+		"path": "pages/article/article",
+		"style": {
+			"navigationBarTitleText": "同花顺股票",
+			"navigationBarTextStyle": "black",
+			"navigationBarBackgroundColor": "#FFFFFF"
+		}
+	}, {
+		"path": "pages/allstock/allstock",
+		"style": {
+			"navigationBarTitleText": "同花顺股票",
+			"navigationBarTextStyle": "black",
+			"navigationBarBackgroundColor": "#FFFFFF"
+		}
+	}, {
+		"path": "pages/blockdetail/blockdetail",
+		"style": {
+			"navigationBarTitleText": "同花顺股票",
+			"navigationBarTextStyle": "black",
+			"navigationBarBackgroundColor": "#FFFFFF"
+		}
+	}, {
+		"path": "pages/backWash/backWash",
+		"style": {
+			"navigationBarTitleText": "同花顺股票",
+			"navigationBarTextStyle": "black",
+			"navigationBarBackgroundColor": "#FFFFFF"
+		}
+	},{
+		"path" : "pages/thskh/thskh",
+		"style" : {
+			"navigationBarTitleText": "同花顺股票",
+			"navigationBarTextStyle": "black",
+			"navigationBarBackgroundColor": "#FFFFFF"
+		}
+    },{
+		"path" : "pages/middlePage/middlePage",
+		"style" : {
+			"navigationBarTitleText": "同花顺股票",
+			"navigationBarTextStyle": "black",
+			"navigationBarBackgroundColor": "#FFFFFF"
+		}
+    }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "同花顺股票",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"easycom": {
+		"autoscan": true, //是否自动扫描组件
+		"custom": { //自定义扫描规则
+			"uni-(.*)": "@/components/uni-$1/uni-$1.vue",
+			"ths-(.*)": "@/components/ths-$1/ths-$1.vue"
+		}
+	},
+	"tabBar": {
+		"color": "#323232",
+		"selectedColor": "#e93030",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/1.png",
+			"selectedIconPath": "static/111.png",
+			"text": "行情"
+		}, {
+			"pagePath": "pages/optional/optional",
+			"iconPath": "static/2.png",
+			"selectedIconPath": "static/222.png",
+			"text": "自选"
+		}, {
+			"pagePath": "pages/thskh/thskh",
+			"iconPath": "static/5.png",
+			"selectedIconPath": "static/555.png",
+			"text": "开户"
+		}]
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 4, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "bind", //模式名称
+			"path": "pages/bindphonenum/bindphonenum", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}, {
+			"name": "feedback", //模式名称
+			"path": "pages/feedback/feedback", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}, {
+			"name": "optional", //模式名称
+			"path": "pages/optional/optional", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}, {
+			"name": "searcg", //模式名称
+			"path": "pages/searchstock/searchstock", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}, {
+			"name": "hq", //模式名称
+			"path": "pages/hq/hq", //启动页面，必选
+			"query": "marketAndCode=hs_300033_33&name=同花顺" //启动参数，在页面的onLoad函数里面得到
+		}, {
+			"name": "allstock", //模式名称
+			"path": "pages/allstock/allstock", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}, {
+			"name": "blockdetail", //模式名称
+			"path": "pages/blockdetail/blockdetail", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}, {
+			"name": "backWash", //模式名称
+			"path": "pages/backWash/backWash", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}
